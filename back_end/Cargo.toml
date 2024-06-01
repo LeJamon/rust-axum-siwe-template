@@ -1,0 +1,17 @@
+[package]
+name = "back_end"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["rt-multi-thread"] }
+siwe = { version = "0.6.0", features = ["serde"] }
+axum = "0.7.5"
+chrono = "0.4.38"
+lazy_static = "1.4.0"
+serde = "1.0.203"
+hex = "0.4.3"
+tower-http = { version = "0.5.2", features = ["cors"] }
+axum-server = "0.6.0"
+jsonwebtoken = "9.3.0"
+axum-macros = "0.4.1"
